@@ -1,0 +1,5 @@
+package com.aaron.spring.springjdbc.employee;
+
+public class RowMapper implements org.springframework.jdbc.core.RowMapper<T> {
+
+}

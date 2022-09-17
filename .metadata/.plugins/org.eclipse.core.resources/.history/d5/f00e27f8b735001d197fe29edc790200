@@ -1,0 +1,7 @@
+package com.aaron.spring.springmvc.controller;
+
+public class RequestParamsController {
+	public ModelAndView getParams() {
+		
+	}
+}

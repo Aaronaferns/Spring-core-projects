@@ -1,0 +1,18 @@
+package com.aaron.spring.springmvc.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+//by default the method used is get
+public class UserController {
+	public ModelAndView showRegisterationPage() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("userRegisteration");
+		return modelAndView;
+		
+	}
+	public ModelAndView regiiterUser() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("userRegisteration");
+		return modelAndView;
+		
+	}
+}

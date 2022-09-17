@@ -1,0 +1,23 @@
+package com.aaron.spring.springcore.constructinjection;
+
+public class Employee {
+	private int id;
+	private Address address;
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", address=" + address + "]";
+	}
+	
+	
+	
+}

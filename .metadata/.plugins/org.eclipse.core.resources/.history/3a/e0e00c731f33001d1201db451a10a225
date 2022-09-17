@@ -1,0 +1,11 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public class PlaceOrderImp implements PlaceOrder {
+
+	@Override
+	public void placeOrder() {
+		System.out.println("The order is placed");
+
+	}
+
+}

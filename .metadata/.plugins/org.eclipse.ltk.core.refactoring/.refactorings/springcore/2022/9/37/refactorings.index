@@ -1,0 +1,25 @@
+1662651185404	Delete element
+1662651277915	Encapsulate field 'id'
+1662651284778	Encapsulate field 'name'
+1662651404982	Delete element
+1662651437471	Rename resource 'springconfig.xml'
+1662701813717	Encapsulate field 'departments'
+1662701818239	Encapsulate field 'name'
+1662701960990	Copy file
+1662702283083	Move file
+1662708352193	Encapsulate field 'products'
+1662708356504	Encapsulate field 'id'
+1662708370835	Copy file
+1662708392922	Rename resource 'listconfig.xml'
+1662710986064	Encapsulate field 'items'
+1662711051541	Copy file
+1662711060968	Move file
+1662711074782	Rename resource 'cartconfig.xml'
+1662714575553	Copy compilation unit
+1662714583529	Move compilation unit
+1662717036386	Copy file
+1662717047687	Rename resource 'mapconfig.xml'
+1662717063003	Encapsulate field 'id'
+1662717455413	Copy compilation unit
+1662718116222	Copy elements
+1662718846474	Copy elements

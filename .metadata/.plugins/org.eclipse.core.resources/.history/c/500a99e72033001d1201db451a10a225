@@ -1,0 +1,11 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public class OrderBAOImpl implements OrderBAO {
+
+	@Override
+	public void placeOrder() {
+		System.out.println("The order is placed");
+
+	}
+
+}

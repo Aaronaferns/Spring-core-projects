@@ -1,0 +1,16 @@
+package com.aaron.spring.springjdbc.employee;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.aaron.spring.springjdbc.employee.dto.Employee;
+
+public class EmployeeRowMapper implements org.springframework.jdbc.core.RowMapper<Employee> {
+	Employee employee= new Employee();
+	@Override
+	public Employee mapRow(ResultSet rs, int rowNum) throws SQLException {
+		
+		return employee;
+	}
+
+}

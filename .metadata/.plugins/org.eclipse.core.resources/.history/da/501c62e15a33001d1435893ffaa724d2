@@ -1,0 +1,5 @@
+package com.aaron.spring.springorm.product.dao.impl;
+
+public class ProductDAOImpl {
+
+}

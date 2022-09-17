@@ -1,0 +1,5 @@
+package com.aaron.spring.springorm;
+
+public class Product {
+
+}

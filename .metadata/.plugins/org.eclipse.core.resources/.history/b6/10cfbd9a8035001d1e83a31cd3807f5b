@@ -1,0 +1,38 @@
+package com.aaron.spring.springmvc.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.aaron.spring.springmvc.dto.Person;
+@Controller
+public class ListController {
+	@RequestMapping("/list")
+	public ModelAndView sendObject() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("displayObject");
+		ArrayList<Person> personList;
+		Person person1 = new Person();
+		person1.setId(55);
+		person1.setName("Aaron");
+		person1.setHobby("Basketball");
+		Person person2 = new Person();
+		person2.setId(55);
+		person2.setName("Aaron");
+		person2.setHobby("Basketball");
+		Person person3 = new Person();
+		person3.setId(55);
+		person3.setName("Aaron");
+		person3.setHobby("Basketball");
+		Person person4 = new Person();
+		person4.setId(55);
+		person4.setName("Aaron");
+		person4.setHobby("Basketball");
+		
+		
+		modelAndView.addObject("person",person);
+		return modelAndView;
+	}
+}

@@ -1,0 +1,11 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public class OrderDAOImpl implements OrderDAO {
+
+	@Override
+	public void getOrder() {
+		System.out.println("Creating order")
+
+	}
+
+}

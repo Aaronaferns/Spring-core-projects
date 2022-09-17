@@ -1,0 +1,17 @@
+package com.aaron.spring.springmvc.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+import com.aaron.spring.springmvc.dto.Person;
+
+public class PersonController {
+	public ModelAndView sendObject() {
+		ModelAndView modelAndView = new ModelAndView();
+		Person person = new Person();
+		person.setId(55);
+		person.setName("Aaron");
+		person.setHobby("Basketball");
+		modelAndView.addObject("person",person);
+		
+	}
+}

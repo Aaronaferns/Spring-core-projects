@@ -1,0 +1,16 @@
+package com.aaron.spring.springjdbc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class Test {
+	public static void main(String[]args){
+		String sql;
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/aaron/spring/springjdbc/config.xml");
+		JdbcTemplate jdbc=(JdbcTemplate) context.getBean("jdbcTemplate");
+		sql="insert into table values(?,?,?)";
+		int result=jdbc.update(sql,2,"aaron", "Fernandes");
+		System.out.println(result+" rows were updated.");
+	}
+}

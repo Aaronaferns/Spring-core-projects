@@ -1,0 +1,7 @@
+package com.aaron.spring.springcoreadvanced.collections;
+
+import java.util.List;
+
+public class PhoneBook {
+	private List<Integer> phoneNumbers;
+}

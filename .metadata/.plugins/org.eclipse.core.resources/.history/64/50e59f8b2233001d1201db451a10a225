@@ -1,0 +1,13 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public class OrderBAOImpl implements OrderBAO {
+
+	private OrderDAO dao;
+	@Override
+	public void placeOrder() {
+		dao.createOrder();
+		System.out.println("The order is placed");
+
+	}
+
+}

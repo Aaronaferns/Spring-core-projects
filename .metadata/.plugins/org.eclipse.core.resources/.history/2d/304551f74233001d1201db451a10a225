@@ -1,0 +1,14 @@
+package com.aaron.spring.springjdbc.employee;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class RowMapper implements org.springframework.jdbc.core.RowMapper<T> {
+
+	@Override
+	public T mapRow(ResultSet rs, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

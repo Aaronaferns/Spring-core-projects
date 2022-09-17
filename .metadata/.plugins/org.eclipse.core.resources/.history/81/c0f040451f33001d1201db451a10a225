@@ -1,0 +1,11 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public class PlaceOrderImp implements PlaceOrder {
+
+	@Override
+	public void placeOrder() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

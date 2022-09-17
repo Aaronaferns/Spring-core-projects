@@ -1,0 +1,5 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+public interface OrderDAO {
+
+}

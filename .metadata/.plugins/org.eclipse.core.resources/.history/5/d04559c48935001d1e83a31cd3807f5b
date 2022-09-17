@@ -1,0 +1,5 @@
+package com.aaron.spring.springmvc.dto;
+
+public class User {
+
+}

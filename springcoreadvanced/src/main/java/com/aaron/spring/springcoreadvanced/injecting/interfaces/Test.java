@@ -1,0 +1,14 @@
+package com.aaron.spring.springcoreadvanced.injecting.interfaces;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/aaron/spring/springcoreadvanced/injecting/interfaces/config.xml");
+		
+		OrderBAO bao= (OrderBAO) context.getBean("bao");
+		bao.placeOrder();		
+	
+	}
+}

@@ -1,0 +1,9 @@
+package com.aaron.spring.springjdbc;
+
+public class Test {
+	public static void main(String[]args){
+		
+		ClassPathXmlApplicationContext(" com/aaron/spring/springjdbc/config.xml");
+		
+	}
+}

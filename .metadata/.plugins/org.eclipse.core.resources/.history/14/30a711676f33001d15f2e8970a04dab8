@@ -1,0 +1,15 @@
+package com.aaron.spring.springorm.product.dao.impl;
+
+import com.aaron.spring.springorm.product.dao.ProductDAO;
+import com.aaron.spring.springorm.product.entity.Product;
+
+public class ProductDAOImpl implements ProductDAO{
+
+	@Override
+	public int create(Product product) {
+		
+		return 0;
+	}
+	
+
+}

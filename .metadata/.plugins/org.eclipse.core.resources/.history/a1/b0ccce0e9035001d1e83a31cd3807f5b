@@ -1,0 +1,12 @@
+package com.aaron.spring.springmvc.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class UserController {
+	public ModelAndView showRegisterationPage() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("userRegisteration");
+		return modelAndView;
+		
+	}
+}

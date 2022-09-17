@@ -1,0 +1,14 @@
+1663143168616	Rename resource 'config.xml'
+1663228597139	Move 'index.jsp' to 'views'
+1663228633643	Move 'hello.jsp' to 'WEB-INF'
+1663228636515	Move 'index.jsp' to 'WEB-INF'
+1663228718329	Move 'index.jsp' to 'webapp'
+1663228723493	Move 'hello.jsp' to 'webapp'
+1663231426056	Move 'hello.jsp' to 'views'
+1663235886907	Rename resource 'views'
+1663241024142	Copy package
+1663241035575	Delete element
+1663241047279	Delete element
+1663241063277	Rename package 'com.aaron.spring.springmvc'
+1663241457986	Extract local variable 'attributeValue'
+1663305905474	Copy compilation unit
